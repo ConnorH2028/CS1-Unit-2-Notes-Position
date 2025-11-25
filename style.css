@@ -11,8 +11,46 @@ img {
     top: 25%;
     left: 250px;
 }
+
+/* FIXED positioning keeps the elemnt
+ *in place, regardless of scrolling
+ */
 #fixed {
     position: fixed;
     bottom: 0px;
     right: 0px;
+}
+
+/* STICKY positioning is like fixed
+ * but only "sticks" when you get to it
+ */
+#sticky {
+    position: sticky;
+    top:20px;
+}
+
+
+/* RELATIVE positioning lets you "nudge an
+ * element from its normal positioningon the page
+ * (moves its relative to the static spot)
+ */
+#relative {
+    position:relative;
+    top: -50px;
+    left: 250px;
+}
+
+
+body {
+    background: black;
+    height: 2000px;
+}
+
+#container {
+    background: white;
+    display: inline-block;
+}
+
+h1 {
+    color:white;
 }
